@@ -1,0 +1,19 @@
+[package]
+name = "ktb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.4.1"
+komorebi-core = { path = "../komorebi/komorebi-core" }
+lazy_static = "1.4.0"
+dirs = "5.0.1"
+uds_windows = "1.1.0"
+color-eyre = "0.6.2"
+serde_json = "1.0.113"
+serde = "1.0.196"
+i-slint-backend-winit = "1.4.1"
+winit = "0.29.10"
+windows = { version = "0.52.0", features = ["Win32_UI_Shell", "Win32_Foundation"] }
